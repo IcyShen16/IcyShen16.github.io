@@ -62,8 +62,8 @@ disqus_username: disqus_pf7p8dlDzt
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 67ecd446d0db7180328c                            #生成的clientID
-  clientSecret: 60dfea4918c35f803bc09984302c95f9755e37c1    #生成的clientSecret
+  clientID: 9f3d4ac940faf2e00e71                            #生成的clientID
+  clientSecret: a1b7ae633a8f88e7c471c04955d5bb6b47c02462    #生成的clientSecret
   repo: icyshen16.github.io    #仓库名称
   owner: icyshen16    #github用户名
   admin: icyshen16
