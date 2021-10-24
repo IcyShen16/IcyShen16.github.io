@@ -1,0 +1,165 @@
+I"�%<h1 id="development-of-protocol-and-blockchain">Development of protocol and Blockchain<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></h1>
+<h2 id="circuit-switching">Circuit Switching</h2>
+<p>Connections between two parties or merchains has to be preestablished and sustained throughout an exchange, which need dedicated lines.</p>
+
+<h2 id="tcpiptransmission-control-protocolinternet-protocol-">TCP/IP(Transmission Control Protocol/Internet Protocol )</h2>
+<h3 id="introduction">Introduction</h3>
+<p>TCP/IP transmitted information by digitizing it and breaking it up into very small packets with address information. The packets can take any route to the recipient by dissembling and reassembling the packets and interpreting and encoding data.</p>
+
+<h3 id="development-of-tcpip">Development of TCP/IP</h3>
+<p>It develops from single-use case (e-mail) and localization(internal corporate e-mail network) to substitutes of existing businesses (online shop), then to transformative application (eBay).</p>
+
+<h2 id="blockchain">Blockchain</h2>
+<h3 id="introduction-of-blockchain">Introduction of Blockchain</h3>
+<p>Blockchain enables bilateral financial transactions to lower the cost of transactions. In a blockchain system, the ledger is replicated in a large number of identical database, each hosted and maintained by an interested party. When changes are entered in one copy, all the other copies are simultaneously updated. There is no need for third-party intermediaries to verify or transfer ownership.</p>
+<h3 id="how-blockchain-works">How blockchain works</h3>
+<ol>
+  <li>distributed database:
+    <ul>
+      <li>each party on a blockchain has access to the entire database and its complete history.</li>
+      <li>No single party controls the data or the information.</li>
+      <li>Every party can verify the records of its transaction partners directly, without an intermediary.</li>
+    </ul>
+  </li>
+  <li>Peer-to-peer transmission
+    <ul>
+      <li>Communication occurs directly between peers without any central node.</li>
+      <li>Each node stores and forwards information to all other nodes.</li>
+    </ul>
+  </li>
+  <li>Transparency with pseudonymity
+    <ul>
+      <li>Every transaction and its associated value are visible to anyone with access to the system.</li>
+      <li>Each node on a blockchain has a unique 30-plus-character alphanumeric address that identifies it.</li>
+      <li>Users can choose to remain anonymous or provide proof of their identity to others.</li>
+      <li>Transactions occur between blockchain address.</li>
+    </ul>
+  </li>
+  <li>Irreversibility of records
+    <ul>
+      <li>Once a transaction is entered in the database and the accounts are updated, the records cannot be altered.</li>
+      <li>Various computational algorithms and approaches are deployed to ensure that the recording on the database is permanentm, chronologically ordered, and available to all others on the network.</li>
+    </ul>
+  </li>
+  <li>Computational logic
+    <ul>
+      <li>The digital nature of the ledger means that the blockchain transactions can be tied to computational logic and in essence programmed.</li>
+      <li>Users can set up algorithms and rules that automatically trigger transactions between nodes.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="development-of-blockchain-novelty-and-complexitycoordination-">Development of Blockchain (novelty and complexity(coordination) )</h3>
+<ul>
+  <li>single use: bitcoin payment</li>
+  <li>localization: private online ledgers for processing financial transactions</li>
+  <li>substitution: retailer gift cards based on bitcoin</li>
+  <li>transformation: self-execting smart contracts</li>
+</ul>
+
+<h3 id="how-to-create-smart-contracts">How to create <a href="https://kauri.io/understanding-smart-contract-compilation-and-deplo/973c5f54c4434bb1b0160cff8c695369/a">Smart Contracts</a></h3>
+<ol>
+  <li>Smart contract is written in a human friendly language (e.g Solidity)</li>
+  <li>The code is compiled into bytecode and a set of function descriptors (Application Binary Interface, known as ABI) by a compiler (e.g Solc)</li>
+  <li>Development Blockchain
+    <ul>
+      <li><a href="https://github.com/ethereum/go-ethereum/wiki/geth">Geth</a> &amp; <a href="https://github.com/trufflesuite/ganache-cli">Ganache-CLI</a>: Ethereum environments to deploy our smart contract(Geth: compile json file which is the output of Solc; Ganache-CLI: listen)</li>
+      <li>Starting Ganache-CLI &amp; attaching Geth Console</li>
+    </ul>
+  </li>
+  <li>The bytecode is packed with other parameters into a transaction</li>
+  <li>The transaction is signed by the account deploying the contract</li>
+  <li>The signed transaction is sent to the blockchain and mined</li>
+</ol>
+
+<h3 id="books-for-blockchain">Books for Blockchain</h3>
+<ul>
+  <li>Mastering Bitcoin: Unlocking Digital Cryptocurrencies by Andreas M. Antonopoulos</li>
+</ul>
+
+<h3 id="platforms-of-blockchain">Platforms of Blockchain</h3>
+<ul>
+  <li><a href="https://ethereum.org/">Ethereum</a>: a global, open-source platform for decentralized applications, based on GO-language</li>
+  <li><a href="https://qtum.org/zh">Qtum</a></li>
+  <li><a href="https://www.hyperledger.org/">Hyperledger</a>, based on GO-language</li>
+  <li><a href="https://www.multichain.com/">Multichain</a></li>
+  <li><a href="https://cryptozombies.io/">Loom</a></li>
+  <li><a href="https://github.com/bitcoin/bitcoin">Bitcoin</a></li>
+</ul>
+
+<h3 id="coding-language-of-blockchain">Coding language of blockchain</h3>
+<ul>
+  <li><a href="https://solidity.readthedocs.io/en/latest/installing-solidity.html">Solidity</a></li>
+</ul>
+
+<h3 id="developer-tools-of-blockchain">Developer Tools of blockchain<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></h3>
+<ol>
+  <li>Fore-end:
+    <ul>
+      <li>Java</li>
+      <li>HTML</li>
+    </ul>
+  </li>
+  <li>BackendFramework:
+    <ul>
+      <li><a href="https://www.trufflesuite.com/">Truffle</a> - A development environment, testing framework, build pipeline, and other tools.</li>
+      <li><a href="https://embark.status.im/docs/">Embark</a> - A development environment, testing framework, and other tools integrated with Ethereum, IPFS, and Whisper.</li>
+      <li><a href="https://getwaffle.io/">Waffle</a> - A framework for advanced smart contract development and testing (based on ethers.js).</li>
+      <li><a href="http://python.ethereum.org/">Python Tooling</a> - Variety of libraries for Ethereum interaction via Python.</li>
+      <li><a href="https://eth-brownie.readthedocs.io/en/latest/">Brownie</a> - Python-based development environment and testing framework.</li>
+    </ul>
+  </li>
+  <li>Data Structure
+    <ul>
+      <li>Stack</li>
+      <li>Queue</li>
+      <li>Linked List</li>
+      <li>Tree</li>
+      <li>HashMaps</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="learning-resources-of-blockchain">Learning Resources of blockchain<sup id="fnref:2:1" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>:</h3>
+<ol>
+  <li>Lynda:
+    <ul>
+      <li><a href="https://www.lynda.com/JavaScript-tutorials/Foundations-of-Programming-Fundamentals/83603-2.html">Foundation</a></li>
+      <li><a href="https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/574716-2.html">JavaScript</a></li>
+      <li><a href="https://www.lynda.com/Developer-Programming-Foundations-tutorials/Foundations-Programming-Data-Structures/149042-2.html">Data structure</a></li>
+      <li><a href="https://www.lynda.com/Programming-Foundations-tutorials/Foundations-Programming-Discrete-Mathematics/411376-2.html">Foundations Programming of Discrete Mathematics</a></li>
+      <li><a href="https://www.lynda.com/Git-tutorials/Git-Essential-Training/100222-2.html">Git</a></li>
+      <li><a href="https://www.lynda.com/Developer-Programming-Foundations-tutorials/Foundations-Programming-Refactoring-Code/122457-2.html">Foundations Programming of Refactoring Code</a></li>
+      <li><a href="https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg/videos">Introduction to Cryptography</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PL6EF60E1027E1A10B">Game theory</a></li>
+      <li><a href="https://www.youtube.com/channel/UCNcSSleedtfyDuhBvOQzFzQ/videos">Bitcoin and Cryptocurrency Technologies Online Course</a></li>
+      <li><a href="https://learnxinyminutes.com/docs/solidity/">Solidity-1</a></li>
+      <li><a href="https://docs.erisindustries.com/tutorials/solidity/">Solidity-2</a></li>
+      <li><a href="https://www.youtube.com/channel/UC6rYoXJ_3BbPyWx_GQDDRRQ">Ethereum</a></li>
+    </ul>
+  </li>
+  <li>Coursera
+    <ul>
+      <li><a href="https://www.coursera.org/learn/cryptocurrency">Crypto and Cryptocurrencies</a></li>
+    </ul>
+  </li>
+  <li>Stanford
+    <ul>
+      <li><a href="https://cs251crypto.stanford.edu/18au-cs251/">CS 251: Cryptocurrencies and Blockchain Technologies</a></li>
+    </ul>
+  </li>
+</ol>
+
+<h1 id="reference">Reference</h1>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>MARCO IANSITI, KARIM R.LAKHANI. The truth about blockchain, JANUARY–FEBRUARY 2017 HARVARD BUSINESS REVIEW <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>https://mp.weixin.qq.com/s/HG3xnU-m88CpmIgvd6YhPw <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:2:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+  </ol>
+</div>
+:ET
