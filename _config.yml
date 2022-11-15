@@ -2,12 +2,12 @@
 title: Xiaobing Shen
 SEOTitle: Icy's blog | Life
 header-img: img/head-img.jpg
-email: 
+email:
 description: "Strength is proven in adversity"
 keyword: "Life, Story, Blog, Algorithm, Optimization, Supply chain management"
-url: "https://icyshen16.github.io"
+url: "https://Xiaobing-Shen.github.io"
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/icyshen16/icyshen16.github.io.git" # you code repository
+github_repo: "https://github.com/Xiaobing-Shen/Xiaobing-Shen.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -18,12 +18,12 @@ sidebar-avatar: /img/head-pic.jpg      # use absolute URL, seeing it's used in b
 
 # SNS settings
 RSS: false
-# weibo_username:     
-# zhihu_username:     
-github_username:    Xiaobing-Shen
-facebook_username:  
-jianshu_username:   
-#twitter_username:  
+# weibo_username:
+# zhihu_username:
+github_username: "Xiaobing-Shen"
+facebook_username:
+jianshu_username:
+#twitter_username:
 email: "shen0341@umn.edu"
 
 
@@ -65,9 +65,9 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 9f3d4ac940faf2e00e71                            #生成的clientID
   clientSecret: a1b7ae633a8f88e7c471c04955d5bb6b47c02462    #生成的clientSecret
-  repo: icyshen16.github.io    #仓库名称
-  owner: icyshen16    #github用户名
-  admin: icyshen16
+  repo: Xiaobing-Shen.github.io    #仓库名称
+  owner: Xiaobing-Shen    #github用户名
+  admin: Xiaobing-Shen
   perPage: 15
   pagerDirection: last #排序方式是从旧到新（first）还是从新到旧（last）
   createIssueManually: true #如果当前页面没有相应的 isssue ，且登录的用户属于 admin，则会自动创建 issue。如果设置为 true，则显示一个初始化页面，创建 issue 需要点击 init 按钮。
