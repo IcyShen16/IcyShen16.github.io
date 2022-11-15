@@ -1,4 +1,4 @@
-I"�<h2 id="introduction">Introduction</h2>
+I"�<h2 id="introduction">Introduction</h2>
 <p><strong>Proximal Gradient</strong>等价于implicit gradient. 他的梯度更新不是用\(x^k\)处的gradient estimate，而是用在\(x^{k+1}\)的gradient estimate<br />
 implicit gradient: \(x^{k+1} = x^{k} - \lambda \delta{f(x^{k+1})}\)<br />
 explicit gradient descent: \(x^{k+1} = x^{k} - \lambda \delta{f(x^{k})}\)<br />
@@ -34,5 +34,4 @@ the parameter \(\lambda\) control the extent to which the proximal operator maps
 <p>Proximal Operator具有Nonexpansive Operator的性质，即：<br />
 \(\lVert prox_f(x) - prox_f(y) \rVert_2^2 \le (x - y)^T (prox_f(x) - prox_f(y))\); where \(x, y \in R^n\).<br />
 可以证明的是如果N是nonexpansive， 那么operator：\(T = (1-\alpha)I + \alpha N\), where \(\alpha \in (0, 1 )\)， has fixed point. 因为N和T的迭代会收敛到fixed point T. i.e. \(x^{k+1} = (1-\alpha) x^{k} + \alpha N(x^k)\) will converge to a fixed point of N.</p>
-
 :ET

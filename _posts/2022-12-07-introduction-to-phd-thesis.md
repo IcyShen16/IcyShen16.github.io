@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "My PhD Thesis"
-date: 2022-12-07
+title: "introduction to phd thesis"
+date: 2020-03-24
 catalog: true
 author:  Icy
-header-img:
-tags: [Pricing]
+header-img: img/introductiontoblockchain.jpg
+tags: [Thesis]
 ---
-
-remain to update

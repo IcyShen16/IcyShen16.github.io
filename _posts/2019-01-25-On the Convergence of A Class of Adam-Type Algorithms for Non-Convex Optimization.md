@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "On the Convergence of A Class of Adam-Type Algorithms for Non-Convex Optimization"
-date:   2019-01-25 15:38:07 +0800
-categories: Optimization Algorithm
-excerpt: "论文阅读"
+date:   2019-01-25
+catalog: true
+author:  Icy
+header-img:
 tags: [Algorithm]
-comments: true
 ---
 
 本篇论文[(1)]是基于`momentum algorithm`来研究一类`adaptive gradient`的。这类算法， 在本篇论文里面成为`Adam-Type`，主要包括`Adam`, `AMSGrad` and `AdaGrad`等算法。这些算法在求解nonconvex problem 上还是一个存在争议的问题。所以这篇文章就讨论了一下使得算法收敛的mild sufficient condition. This paper prove that under some conditions, the Adam-type methods can achieve the convergence rate of order $$O(logT/\sqrt(T))$$  
