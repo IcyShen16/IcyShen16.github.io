@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introduction to Block Chain"
+title: "Proximal Gradient"
 date: 2019-01-09
 catalog: true
 author:  Icy
