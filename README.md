@@ -1,4 +1,4 @@
-# IcyShen16.github.io
+# Xiaobing-Shen.github.io
 This is a repo for Icy's Blog.
 
-Please visit https://icyshen16.github.io 
+Please visit https://Xiaobing-Shen.github.io 
